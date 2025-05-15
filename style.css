@@ -197,14 +197,14 @@ h1 {
 
 }
 
-.footer {
+.final-content {
     display: flex;
     height: 300px;
     justify-content: center;
     align-items: center;
 }
 
-.footer-container {
+.final-container {
     display: flex;
     flex-direction: column;
     color: #fff;
@@ -220,12 +220,12 @@ h1 {
 
 }
 
-.footer-items {
+.final-items {
     font-family: 'Roboto';
     font-size: 20px;
 }
 
-.footer2-items {
+.final2-items {
     font-family: 'Roboto-light';
     
 }
@@ -251,6 +251,28 @@ h1 {
 .button2 a {
     text-decoration: none;
     color: #fff;
+}
+
+.odin-footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    /*border: 1px solid lightgrey;*/
+}
+
+.footer-items {
+    color: #fff;
+    font-family: 'Roboto-light';
+    font-weight: 600;
 }
 
 
